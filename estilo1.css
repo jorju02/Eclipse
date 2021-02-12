@@ -1,0 +1,78 @@
+body{
+    margin: 0%;
+    background-image: url("eclipse.jpg");
+    color: white;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#navegador{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#carro{
+    border: 1px solid white;
+}
+
+#coleccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#navegador-fijo a{
+    padding: 3%;
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    list-style-type: none;
+    color: white;
+    
+}
+
+.card{
+    margin: 1% 2%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+}
+
+span{
+    margin-left: 5%;
+    border: 1% solid black;
+}
+
+.texto{
+    background-color: white;
+    color: black;
+    width: fit-content;
+}
+
+
+#NOMBRE a{
+font-size: xx-large;
+color:white;
+text-decoration: none;
+font-family: 'Abril Fatface', cursive;
+}
+
+
+
+.medio{
+    display: flex;
+}
+
